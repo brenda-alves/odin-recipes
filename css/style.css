@@ -12,44 +12,36 @@
     line-height: 2em;
 }
 
-h1 {
+.h1 {
     font-family: 'Cinzel', serif;
     text-decoration: overline;
     padding: 15px;
     color: #4F3080;
 }
 
-.description {
+.h2-description {
     text-align: center;
     margin-top: 25px;
     padding: 5px;
     color: #4F3080;
 }
 
-.exception {
+.description-paragraph {
     line-height: 1.5em;
     padding: 10px;
     margin: 5px 30% 20px 30%;
     text-align: justify;
 }
 
-
-h2 {
+.h2-lists {
     color: #4F3080;
     padding: 1.5%;
 }
 
-h2 + p {
-    line-height: 1.5em;
-    padding: 10px;
-    margin: 5px 30% 20px 30%;
-    text-align: justify;
-}
-
-a {
+.link {
     text-decoration: none;
 }
 
-footer {
+.footer {
     margin-bottom: 30px;
 }
