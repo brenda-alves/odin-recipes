@@ -11,15 +11,37 @@
     box-sizing: border-box;
 }
 
-.title {
+.container-img {
+    display: flex;
+    justify-content: center;
+}
+
+.img-logo {
+    margin-left: 80px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    margin-right: 0;
+    height: 100px;
+}
+
+.container-h2 {
+    background-color: #3e301f;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.header-title {
     font-family: 'Cinzel', serif;
-    color: #4F3080;
-    margin: 30px 0px 70px 0px;
-    text-align: center;
+    background-color: #3e301f;
+    color: white;
+    font-size: 40px;
+    margin: 0 auto;
 }
 
 .out-container {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     padding: 15px;
 }
 
@@ -30,6 +52,11 @@
     display: inline-block;
 }
 
+.container-text {
+    text-align: center;
+}
+
+
 .img {
     transition: transform 0.4s;
 }
@@ -39,7 +66,7 @@
 }
 
 .container img {
-    max-width: 300px;
+    max-width: 250px;
     max-height: 200px;
     width: auto;
     height: auto;
