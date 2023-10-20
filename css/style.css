@@ -12,6 +12,16 @@
     line-height: 2em;
 }
 
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+
+.div-container {
+    min-width: 400px;
+    max-width: 800px;
+}
+
 .h1 {
     font-family: 'Cinzel', serif;
     text-decoration: overline;
@@ -29,7 +39,6 @@
 .description-paragraph {
     line-height: 1.5em;
     padding: 10px;
-    margin: 5px 30% 20px 30%;
     text-align: justify;
 }
 
@@ -44,4 +53,10 @@
 
 .footer {
     margin-bottom: 30px;
+}
+
+ul li,
+ol li {
+    list-style-type: none;
+    text-align: center;
 }
